@@ -1,6 +1,13 @@
+package constructors;
+
 class Student {
     String name;
     int age;
+
+    Student() {
+        name = "Kanishk";
+        age = 20;
+    }
 
     void display() {
         System.out.println("Name: " + name);
@@ -8,13 +15,10 @@ class Student {
     }
 }
 
-public class BasicClass {
+public class DefaultConstructor {
     public static void main(String[] args) {
 
         Student student1 = new Student();
-
-        student1.name = "Kanishk";
-        student1.age = 20;
 
         student1.display();
     }
