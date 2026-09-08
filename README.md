@@ -8,7 +8,7 @@ Object-Oriented Programming (OOPs).
 - Classes and Objects
 - Constructors
 - Encapsulation
-- Inheritance
+- inheritance
 - Polymorphism
 - Abstraction
 - Interfaces
